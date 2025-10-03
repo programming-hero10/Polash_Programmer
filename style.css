@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+:root {
+  --font-family-Manrope: "Manrope", sans-serif;
+  --font-family-Poppins: "Poppins", sans-serif;
+  --header-height: 60px;
+  --header-bg-color: #333;
+  --header-text-color: #fff;
+  --background-color: #000fff;
+  --bacground-color2: #030307;
+}
+body {
+  background: #161513;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header {
+
+} */
+#closeIcon {
+  display: none;
+}
+.nav-gation {
+  position: sticky;
+  top: 0;
+  z-index: 10000000;
+  display: flex;
+  align-items: center;
+}
+.nav-change {
+  background: #fff;
+}
+#image-show {
+  transition: 0.5s ease;
+}
+.img-show {
+  opacity: 1;
+}
+#navigation {
+  transition: 1s ease;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  padding: 25px 0;
+  /* overflow: hidden; */
+  animation: typing2 1s steps(40, end), blink-caret 0.75s step-end infinite;
+  & .logo {
+    & a {
+      color: #fff;
+      transition: 1s ease;
+      text-decoration: none;
+      & img {
+        width: 90px;
+        border-radius: 50%;
+      }
+    }
+  }
+  & .nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: var(--font-family-Manrope);
+    & a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+main {
+  & .hero-section {
+    display: inline;
+    color: #fff;
+    font-family: var(--font-family-Poppins);
+    text-align: center;
+    & .img img {
+      width: 251px;
+      height: 223;
+    }
+    & .head-line {
+      font-size: 30px;
+      margin: 20px 0;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-family: var(--font-family-Poppins);
+      & h1 {
+        font-weight: 900;
+        & span {
+          color: #ff014f;
+        }
+      }
+    }
+    & .p-text{
+      color: #C5C5C5;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    background-size: cover;
+    background-position: center center;
+  }
+  nav {
+    position: relative;
+    width: 100%;
+    padding: 30px 20px;
+    & ul li a {
+      color: #000;
+    }
+    & .btn {
+      & img {
+        margin-right: 20px;
+        display: block;
+      }
+    }
+    & .btn a {
+      display: none;
+    }
+    & .btn i {
+      font-size: 20px;
+      margin: 0 6px;
+      display: block;
+    }
+  }
+  #manuIcon {
+    transition: 0.5s ease;
+    color: #fff;
+  }
+  #closeIcon {
+    transition: 0.5s ease;
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+  }
+  #manu {
+    top: 0;
+    background: #000;
+    width: 100%;
+    position: absolute;
+    margin-top: -9500px;
+    transition: all 0.5s ease-in-out;
+    right: 0;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #manu li {
+    display: block;
+    margin: 50px 0;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 766px) and (max-width: 988px) {
+  header {
+    background-size: cover;
+    background-position: center center;
+  }
+  nav {
+    position: relative;
+    width: 100%;
+    padding: 30px 20px;
+    height: 100%;
+    & .btn {
+      & img {
+        margin-right: 20px;
+        display: block;
+      }
+    }
+    & .btn a {
+      display: none;
+    }
+    & .btn i {
+      font-size: 20px;
+      margin: 0 6px;
+      display: block;
+    }
+  }
+  #manuIcon {
+    transition: 0.5s ease;
+    margin-right: 50px;
+  }
+  #closeIcon {
+    transition: 0.5s ease;
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+  }
+  #manu {
+    top: 0;
+    background: #000000;
+    width: 100%;
+    position: absolute;
+    margin-top: -9500px;
+    transition: all 0.5s ease-in-out;
+    right: 0;
+    text-align: center;
+    height: 100vh;
+    z-index: 111111111111;
+  }
+  #manu li {
+    display: block;
+    margin: 100px 0;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+  header {
+    background-size: cover;
+    background-position: center center;
+  }
+  #manuIcon {
+    transition: 0.5s ease;
+    color: #fff !important;
+    display: block;
+  }
+  #closeIcon {
+    transition: 0.5s ease;
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fff;
+  }
+  #manu {
+    top: 0;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    margin-top: -9500px;
+    transition: all 0.5s ease-in-out;
+    right: 0;
+    text-align: center;
+    height: 100%;
+    z-index: 111111111111;
+  }
+  .nav-gation {
+    top: 0px;
+  }
+  nav {
+    padding: 20px;
+    width: 100%;
+    gap: 50px;
+    & ul {
+      font-size: 18px;
+      gap: 20px;
+    }
+    & .btn a {
+      padding: 10px 20px;
+    }
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  #manu {
+    height: 100%;
+    background: #000;
+  }
+  #manu li {
+    display: block;
+    margin: 50px 0;
+    font-size: 25px;
+  }
+}
