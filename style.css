@@ -142,23 +142,56 @@ main {
     }
   }
 }
-.experience{
+.experience {
   text-align: center;
   margin-top: 100px;
-  h1{
+  h1 {
     font-family: var(--font-family-Poppins);
     color: #fff;
     margin-bottom: 30px;
   }
-  & .language-images{
+  & .language-images {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
   }
-  & .language-images img{
+  & .language-images img {
     width: 42px;
     height: 42px;
+  }
+}
+.projects {
+  margin-top: 100px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+  & h1 {
+    font-family: var(--font-family-Poppins);
+    margin-bottom: 20px;
+    color: #ff014f;
+  }
+  & .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    & .text-con {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 15px;
+      background: #2a2a2a;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      text-align: start;
+      font-family: var(--font-family-Poppins);
+      color: #fff;
+      text-decoration: none;
+      & p {
+        font-size: 12px;
+      }
+    }
   }
 }
 
@@ -227,11 +260,10 @@ main {
       & br {
         display: none;
       }
-      & .btn a{
-      padding: 10px 15px;
+      & .btn a {
+        padding: 10px 15px;
+      }
     }
-    }
-    
   }
 }
 
@@ -288,6 +320,21 @@ main {
     display: block;
     margin: 100px 0;
   }
+  .projects {
+    & .cards {
+      flex-direction: column;
+      & .card1 {
+        & .img {
+          width: 100%;
+        }
+      }
+      & .card2 {
+        & .img {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 @media screen and (min-width: 990px) and (max-width: 1300px) {
   header {
@@ -332,6 +379,21 @@ main {
     }
     & .btn a {
       padding: 10px 20px;
+    }
+  }
+  .projects {
+    & .cards {
+      flex-direction: column;
+      & .card1 {
+        & .img {
+          width: 100%;
+        }
+      }
+      & .card2 {
+        & .img {
+          width: 100%;
+        }
+      }
     }
   }
 }
