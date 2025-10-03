@@ -142,6 +142,25 @@ main {
     }
   }
 }
+.experience{
+  text-align: center;
+  margin-top: 100px;
+  h1{
+    font-family: var(--font-family-Poppins);
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  & .language-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+  & .language-images img{
+    width: 42px;
+    height: 42px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   header {
