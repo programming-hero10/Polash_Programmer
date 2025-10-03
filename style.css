@@ -171,11 +171,17 @@ main {
     margin-bottom: 20px;
     color: #ff014f;
   }
+  & a{
+    text-decoration: none;
+  }
   & .cards {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 200px;
+    & .img{
+      width: 100%;
+    }
     & .text-con {
       display: flex;
       align-items: center;
@@ -192,6 +198,10 @@ main {
         font-size: 12px;
       }
     }
+    & .card1,.card2{
+      width: 390px;
+      height: 301px;
+    }
   }
 }
 .exp {
@@ -199,9 +209,12 @@ main {
   color: #fff;
   & .h1 {
     text-align: center;
+    color: #5BADFF;
+    font-family: var(--font-family-Poppins);
+    font-size: 35px;
   }
   & .cards {
-    padding: 30px 150px;
+    padding: 30px 350px;
     font-family: var(--font-family-Poppins);
     & .card1,
     .card2,
@@ -233,6 +246,25 @@ main {
       font-size: 20px;
       color: #8491a0;
     }
+  }
+}
+.contact{
+  padding: 50px 350px;
+  color: #fff;
+  font-family: var(--font-family-Poppins);
+  & h1{
+    margin-bottom: 50px;
+  }
+  & p{
+    margin-bottom: 50px;
+    color: #C5C5C5;
+  }
+  & .gmail{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    width: 16.51px;
+    height: 16.51px;
   }
 }
 
@@ -304,6 +336,12 @@ main {
       & .btn a {
         padding: 10px 15px;
       }
+      & .btn .btn1{
+        font-size: 15px;
+      }
+      & .btn .btn2{
+        font-size: 15px;
+      }
     }
   }
   .projects {
@@ -326,8 +364,12 @@ main {
       padding: 20px;
       & .head-line {
         flex-direction: column;
+        align-items: start;
       }
     }
+  }
+  .contact{
+    padding: 20px;
   }
 }
 
@@ -445,7 +487,7 @@ main {
       padding: 10px 20px;
     }
   }
-  .projects {
+  /* .projects {
     & .cards {
       flex-direction: column;
       & .card1 {
@@ -459,7 +501,15 @@ main {
         }
       }
     }
-  }
+  } */
+   .exp{
+    & .cards{
+      padding: 20px 150px;
+    }
+   }
+   .contact{
+    padding: 20px 150px;
+   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
   #manu {
