@@ -96,12 +96,30 @@
   .contact {
     padding: 20px;
   }
-  .hero-about{
+  .hero-about {
     padding: 20px;
     flex-direction: column;
     gap: 0;
-    & img{
+    & img {
       width: 100%;
+    }
+  }
+  .about-me {
+    .main-contant {
+      flex-direction: column;
+      padding: 20px;
+      & .a-img img {
+        width: 100%;
+      }
+      & .a-text {
+        & h2 {
+          font-size: 35px;
+          margin-top: 50px;
+        }
+        & p {
+          font-size: 16px;
+        }
+      }
     }
   }
 }
@@ -174,11 +192,24 @@
       }
     }
   }
-  .hero-about{
+  .hero-about {
+    flex-direction: column;
     padding: 20px;
     align-items: center;
-    & img{
+    gap: 50px;
+    & img {
       width: 50%;
+    }
+  }
+  .about-me {
+    .main-contant {
+      flex-direction: column;
+      padding: 20px;
+      & .a-text {
+        & h2 {
+          margin-top: 50px;
+        }
+      }
     }
   }
 }
@@ -250,10 +281,21 @@
   .contact {
     padding: 20px 150px;
   }
-  .hero-about{
+  .hero-about {
     flex-direction: column;
     gap: 0;
     padding: 20px;
+  }
+  .about-me {
+    .main-contant {
+      flex-direction: column;
+      padding: 100px;
+      & .a-text {
+        & h2 {
+          margin-top: 50px;
+        }
+      }
+    }
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
@@ -266,10 +308,10 @@
     margin: 50px 0;
     font-size: 25px;
   }
-  .hero-about{
+  .hero-about {
     text-align: center;
     padding: 50px;
-    & img{
+    & img {
       width: 50%;
     }
   }

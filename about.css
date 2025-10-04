@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bungee+Spice&family=Libertinus+Keyboard&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Libertinus+Keyboard&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Bungee+Spice&family=Libertinus+Keyboard&family=Metal+Mania&display=swap");
 .hero-about {
   font-family: var(--font-family-Poppins);
   color: #fff;
@@ -47,5 +48,49 @@
     width: 100%;
     border-radius: 50%;
     border: 2px solid #ff3d71;
+  }
+}
+.about-me {
+  margin-top: 100px;
+  color: #fff;
+  & h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Libertinus Keyboard", system-ui;
+    & .a {
+      color: #ff3d71;
+    }
+    & .b {
+      color: #5badff;
+    }
+    & .o {
+      color: darkblue;
+    }
+    & .u {
+      color: #ff6a3d;
+    }
+    & .t {
+      color: cyan;
+    }
+    & .me {
+      color: #ff0f0f;
+    }
+  }
+  & .main-contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 350px;
+    & .a-text {
+      & h2 {
+        font-family: "Bungee Spice", sans-serif;
+        font-size: 50px;
+        margin-bottom: 50px;
+      }
+      & p {
+        font-family: "Metal Mania", system-ui;
+        font-size: 20px;
+      }
+    }
   }
 }
