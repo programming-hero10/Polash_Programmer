@@ -96,6 +96,14 @@
   .contact {
     padding: 20px;
   }
+  .hero-about{
+    padding: 20px;
+    flex-direction: column;
+    gap: 0;
+    & img{
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (min-width: 766px) and (max-width: 988px) {
@@ -166,8 +174,15 @@
       }
     }
   }
+  .hero-about{
+    padding: 20px;
+    align-items: center;
+    & img{
+      width: 50%;
+    }
+  }
 }
-@media screen and (min-width: 990px) and (max-width: 1300px) {
+@media screen and (min-width: 910px) and (max-width: 1300px) {
   header {
     background-size: cover;
     background-position: center center;
@@ -235,6 +250,11 @@
   .contact {
     padding: 20px 150px;
   }
+  .hero-about{
+    flex-direction: column;
+    gap: 0;
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
   #manu {
@@ -245,5 +265,12 @@
     display: block;
     margin: 50px 0;
     font-size: 25px;
+  }
+  .hero-about{
+    text-align: center;
+    padding: 50px;
+    & img{
+      width: 50%;
+    }
   }
 }

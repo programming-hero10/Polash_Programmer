@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Libertinus+Keyboard&display=swap");
+
+.hero-about {
+  font-family: var(--font-family-Poppins);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 350px;
+  gap: 250px;
+  margin-top: 150px;
+  & h1 {
+    font-size: 50px;
+    & .hello {
+      font-family: "Libertinus Keyboard", system-ui;
+    }
+    & .f {
+      color: blueviolet;
+      text-decoration: underline;
+    }
+    & .i {
+      color: #5badff;
+      text-decoration: underline;
+    }
+    & .n {
+      color: #ff6a3d;
+      text-decoration: underline;
+    }
+    & .d {
+      color: #ffb800;
+      text-decoration: underline;
+    }
+    & .e {
+      color: #00c9a7;
+      text-decoration: underline;
+    }
+    & .r {
+      color: #ff3d71;
+      text-decoration: underline;
+    }
+    & .s {
+      color: #ff6a3d;
+      text-decoration: underline;
+    }
+  }
+  & img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #ff3d71;
+  }
+}
