@@ -171,7 +171,7 @@ main {
     margin-bottom: 20px;
     color: #ff014f;
   }
-  & a{
+  & a {
     text-decoration: none;
   }
   & .cards {
@@ -179,7 +179,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 200px;
-    & .img{
+    & .img {
       width: 100%;
     }
     & .text-con {
@@ -198,7 +198,8 @@ main {
         font-size: 12px;
       }
     }
-    & .card1,.card2{
+    & .card1,
+    .card2 {
       width: 390px;
       height: 301px;
     }
@@ -209,7 +210,7 @@ main {
   color: #fff;
   & .h1 {
     text-align: center;
-    color: #5BADFF;
+    color: #5badff;
     font-family: var(--font-family-Poppins);
     font-size: 35px;
   }
@@ -248,18 +249,18 @@ main {
     }
   }
 }
-.contact{
+.contact {
   padding: 50px 350px;
   color: #fff;
   font-family: var(--font-family-Poppins);
-  & h1{
+  & h1 {
     margin-bottom: 50px;
   }
-  & p{
+  & p {
     margin-bottom: 50px;
-    color: #C5C5C5;
+    color: #c5c5c5;
   }
-  & .gmail{
+  & .gmail {
     display: flex;
     align-items: center;
     gap: 2px;
@@ -268,3 +269,40 @@ main {
   }
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background: #cc0000;
+  & .foot1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    & .foot-card2 ul {
+      display: flex;
+      font-family: var(--font-family-Manrope);
+      gap: 20px;
+      list-style: none;
+      & li a {
+        color: #fff;
+        text-decoration: none;
+        border-right: 1px solid #fff;
+        padding-right: 20px;
+      }
+      & li .ct {
+        border: none;
+      }
+    }
+  }
+  & .line {
+    border-bottom: 2px solid #fff;
+  }
+  & .foot2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: var(--font-family-Manrope);
+  }
+}

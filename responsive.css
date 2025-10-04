@@ -96,6 +96,20 @@
   .contact {
     padding: 20px;
   }
+  footer {
+    & .foot1 {
+      flex-direction: column;
+      &  .foot-card2 ul{
+        gap: 10px;
+        & li a{
+          padding-right: 10px;
+        }
+      }
+    }
+    & .foot2{
+      flex-direction: column;
+    }
+  }
   .hero-about {
     padding: 20px;
     flex-direction: column;
