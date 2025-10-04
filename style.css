@@ -83,13 +83,7 @@ main {
     & .img img {
       width: 251px;
       height: 223;
-      border: 2px solid;
-      border-image: linear-gradient(
-        to right,
-        #ff014f,
-        #ff014f 50%,
-        #00ffff 50%
-      );
+      border: 2px solid #fff;
       border-radius: 50%;
     }
     & .head-line {
