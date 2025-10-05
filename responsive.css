@@ -141,6 +141,20 @@
     flex-direction: column;
     gap: 50px;
   }
+  .hero-vid {
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+  }
+  .video-card {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+    & .card1,
+    .card2,
+    .card3 {
+      overflow: hidden;
+    }
+  }
 }
 
 @media screen and (min-width: 766px) and (max-width: 988px) {
@@ -235,9 +249,23 @@
     padding: 20px;
     flex-direction: column;
     gap: 50px;
-    & .phon-img img{
+    & .phon-img img {
       width: 60%;
     }
+  }
+  .hero-vid {
+    flex-direction: column;
+    padding: 50px;
+    gap: 50px;
+    text-align: center;
+    & .img-v img {
+      width: 50%;
+    }
+  }
+  .video-card {
+    overflow: hidden;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
   }
 }
 @media screen and (min-width: 910px) and (max-width: 1300px) {
@@ -324,10 +352,18 @@
       }
     }
   }
+  .video-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .video-card {
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
 }
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
   #manu {
-    height: 100%;
+    height: 100vh;
     background: #000;
   }
   #manu li {
