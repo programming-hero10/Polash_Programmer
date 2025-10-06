@@ -1,0 +1,39 @@
+header {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/project-bg.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  & .text {
+    padding-top: 250px;
+  }
+  & h1 {
+    font-size: 50px;
+    font-family: var(--font-family-Poppins);
+    color: #7bff00;
+    &.h1 {
+      font-weight: 900;
+      color: #d60084;
+    }
+  }
+  & p {
+    font-size: 20px;
+    font-family: var(--font-family-Manrope);
+    font-size: 600;
+    color: #00c3ff;
+    margin-bottom: 50px;
+  }
+  & .text {
+    & a {
+      color: #fff;
+      text-decoration: none;
+      padding: 20px 30px;
+      border: 2px solid #fff;
+    }
+  }
+}
+body {
+  color: #fff;
+}
