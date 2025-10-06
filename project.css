@@ -37,6 +37,9 @@ header {
 body {
   color: #fff;
 }
+#manuIcon{
+  display: none !important;
+}
 .project-card {
   & .head-line {
     text-align: center;
