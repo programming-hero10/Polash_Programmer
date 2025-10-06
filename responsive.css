@@ -155,6 +155,21 @@
       overflow: hidden;
     }
   }
+  header {
+    & .text {
+      padding-top: 20px;
+    }
+  }
+  .project-card {
+    & .head-line {
+      margin: 0 20px;
+      margin-top: 50px;
+    }
+    & .cards {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 20px;
+    }
+  }
 }
 
 @media screen and (min-width: 766px) and (max-width: 988px) {
@@ -267,6 +282,17 @@
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
   }
+  .project-card {
+    & .head-line {
+      margin: 0 20px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    & .cards {
+      grid-template-columns: repeat(2, 1fr);
+      padding: 20px;
+    }
+  }
 }
 @media screen and (min-width: 910px) and (max-width: 1300px) {
   header {
@@ -360,6 +386,17 @@
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
   }
+  .project-card {
+    & .head-line {
+      margin: 0 20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    & .cards {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 20px;
+    }
+  }
 }
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
   #manu {
@@ -376,6 +413,22 @@
     padding: 50px;
     & img {
       width: 50%;
+    }
+  }
+  header{
+    & .text{
+      padding-top: 50px;
+    }
+  }
+  .project-card {
+    & .head-line {
+      margin: 0 20px;
+      margin-top: 150px;
+      margin-bottom: 50px;
+    }
+    & .cards {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 20px;
     }
   }
 }
