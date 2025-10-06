@@ -28,6 +28,7 @@
   #manuIcon {
     transition: 0.5s ease;
     color: #fff;
+    display: block !important;
   }
   #closeIcon {
     transition: 0.5s ease;
@@ -200,6 +201,7 @@
   #manuIcon {
     transition: 0.5s ease;
     margin-right: 50px;
+    display: block !important;
   }
   #closeIcon {
     transition: 0.5s ease;
@@ -303,6 +305,7 @@
     transition: 0.5s ease;
     color: #fff !important;
     display: block;
+    display: block !important;
   }
   #closeIcon {
     transition: 0.5s ease;
@@ -403,6 +406,9 @@
     height: 100vh;
     background: #000;
   }
+  #manuIcon {
+    display: block !important;
+  }
   #manu li {
     display: block;
     margin: 50px 0;
@@ -415,8 +421,8 @@
       width: 50%;
     }
   }
-  header{
-    & .text{
+  header {
+    & .text {
       padding-top: 50px;
     }
   }
