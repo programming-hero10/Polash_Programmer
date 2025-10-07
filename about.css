@@ -94,3 +94,30 @@
     }
   }
 }
+.about-my-programming-l {
+  color: #fff;
+  padding: 0 290px;
+  & h1 {
+    text-align: center;
+    font-family: var(--font-family-Poppins);
+    color: #5badff;
+  }
+
+  & .write {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    & p {
+      text-align: center;
+      font-size: 20px;
+      font-family: var(--font-family-Manrope);
+    }
+    & h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-family: "Courier New", Courier, monospace;
+      text-decoration: underline;
+    }
+  }
+}
