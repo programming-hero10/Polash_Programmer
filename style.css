@@ -18,6 +18,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-padding: 50px;
 }
 /* header {
 
@@ -43,6 +44,11 @@ body {
 }
 #navigation {
   transition: 1s ease;
+}
+header{
+  top: 0;
+  position: sticky;
+  backdrop-filter: blur(10px);
 }
 nav {
   display: flex;
