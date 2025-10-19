@@ -93,8 +93,8 @@ main {
     font-family: var(--font-family-Poppins);
     text-align: center;
     & .img img {
-      width: 331px;
-      height: 303;
+      width: 381px;
+      height: 353;
     }
     & .head-line {
       font-size: 30px;
