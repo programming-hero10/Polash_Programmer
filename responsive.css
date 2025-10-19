@@ -73,6 +73,10 @@
       & .btn .btn2 {
         font-size: 15px;
       }
+      & .img img{
+        width: 261px;
+        width: 233px;
+      }
     }
   }
   .projects {

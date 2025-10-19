@@ -46,7 +46,7 @@
   }
   & img {
     width: 100%;
-    border: 2px solid #E36DFF;
+    border: 4px solid #E36DFF;
     border-radius: 50%;
     animation: image-aniamtion 2s ease-in-out;
   }
