@@ -45,7 +45,7 @@ body {
 #navigation {
   transition: 1s ease;
 }
-header{
+header {
   top: 0;
   position: sticky;
   backdrop-filter: blur(10px);
@@ -81,6 +81,11 @@ nav {
     }
   }
 }
+.bg-contain {
+  background-repeat: no-repeat;
+  background-image: url("images/hero-bg.jpg");
+  background-size: cover;
+}
 main {
   & .hero-section {
     display: inline;
@@ -88,8 +93,8 @@ main {
     font-family: var(--font-family-Poppins);
     text-align: center;
     & .img img {
-      width: 261px;
-      height: 233;
+      width: 331px;
+      height: 303;
     }
     & .head-line {
       font-size: 30px;
