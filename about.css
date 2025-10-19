@@ -48,8 +48,22 @@
     width: 100%;
     border: 2px solid #E36DFF;
     border-radius: 50%;
+    animation: image-aniamtion 2s ease-in-out;
   }
 }
+/* image animation */
+@keyframes image-aniamtion {
+  from{
+    filter: blur(5px);
+    opacity: 0%;
+  }
+  to{
+    filter: blur(0px);
+    opacity: 100%;
+  }
+
+}
+/* image animation */
 .about-me {
   margin-top: 100px;
   color: #fff;
