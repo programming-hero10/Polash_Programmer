@@ -56,7 +56,7 @@ nav {
   justify-content: space-between;
   width: 70%;
   margin: 0 auto;
-  padding: 25px 0;
+  /* padding: 15px 0; */
   /* overflow: hidden; */
   animation: typing2 1s steps(40, end), blink-caret 0.75s step-end infinite;
   & .logo {
