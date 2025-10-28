@@ -83,7 +83,7 @@ nav {
 }
 .bg-contain {
   background-repeat: no-repeat;
-  background-image: url("images/hero-bg.jpg");
+  background-image: url("../images/hero-bg.jpg");
   background-size: cover;
 }
 main {
