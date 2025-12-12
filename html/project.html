@@ -17,33 +17,33 @@
     <link rel="stylesheet" href="../styles/responsive.css" />
   </head>
   <body>
+    <div id="navigation" class="nav-gation">
+      <nav>
+        <div class="logo">
+          <a href="../index.html"><img src="../images/logo.png" alt="" /></a>
+        </div>
+        <div class="nav-links">
+          <ul id="manu">
+            <i
+              class="fa-solid fa-close"
+              onclick="closeMenu()"
+              id="closeIcon"
+            ></i>
+            <li><a target="_blank" href="../index.html">Home</a></li>
+            <li><a target="_blank" href="about.html">About</a></li>
+            <li><a target="_blank" href="my-video.html">My Videos</a></li>
+            <li><a target="_blank" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <i
+        id="manuIcon"
+        onclick="openMenu()"
+        class="fa fa-bars"
+        aria-hidden="true"
+      ></i>
+    </div>
     <header>
-      <div id="navigation" class="nav-gation">
-        <nav>
-          <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="" /></a>
-          </div>
-          <div class="nav-links">
-            <ul id="manu">
-              <i
-                class="fa-solid fa-close"
-                onclick="closeMenu()"
-                id="closeIcon"
-              ></i>
-              <li><a target="_blank" href="index.html">Home</a></li>
-              <li><a target="_blank" href="about.html">About</a></li>
-              <li><a target="_blank" href="my-video.html">My Videos</a></li>
-              <li><a target="_blank" href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-        <i
-          id="manuIcon"
-          onclick="openMenu()"
-          class="fa fa-bars"
-          aria-hidden="true"
-        ></i>
-      </div>
       <div class="p-hero">
         <div class="text">
           <h1 class="h1">Hello</h1>
@@ -269,11 +269,10 @@
         </div>
         <div class="foot-card2">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="project.html">Project</a></li>
-            <li><a href="my-video.html">My Video</a></li>
-            <li><a href="contact.html" class="ct">Cntact</a></li>
+            <li><a target="_blank" href="../index.html">Home</a></li>
+            <li><a target="_blank" href="about.html">About</a></li>
+            <li><a target="_blank" href="my-video.html">My Videos</a></li>
+            <li><a target="_blank" class="ct" href="contact.html">Contact</a></li>
           </ul>
         </div>
       </div>
