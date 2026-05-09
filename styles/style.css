@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Oswald:wght@200..700&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
 :root {
   --font-family-Manrope: "Manrope", sans-serif;
   --font-family-Poppins: "Poppins", sans-serif;
+  --font-family-adlam-display-regular: "ADLaM Display", system-ui;
   --header-height: 60px;
   --header-bg-color: #333;
   --header-text-color: #fff;
@@ -58,7 +60,9 @@ nav {
   margin: 0 auto;
   /* padding: 15px 0; */
   /* overflow: hidden; */
-  animation: typing2 1s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation:
+    typing2 1s steps(40, end),
+    blink-caret 0.75s step-end infinite;
   & .logo {
     & a {
       color: #fff;
